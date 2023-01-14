@@ -1,20 +1,16 @@
 ## Como rodar o projeto
 
-Requisitos. 
-PHP 8: https://celke.com.br/artigo/como-instalar-o-wampserver-com-php-8
-Composer: https://celke.com.br/artigo/como-instalar-composer-no-windows
-
 Acessar o diretório do projeto no prompt de comando ou no terminal do editor
 
 Instalar as dependências: composer install
 
-Criar a base de dados 'celke' no servidor MySQL
+Criar a base de dados '' no servidor MySQL
 
 Alterar as credenciais do banco de dados no arquivo ".env":
 DB_CONNECTION=mysql
 DB_HOST=localhost
 DB_PORT=3306
-DB_DATABASE=celke
+DB_DATABASE=
 DB_USERNAME=root
 DB_PASSWORD=
 
@@ -22,16 +18,6 @@ Executar as migration: php artisan migrate
 
 Rodar o projeto criado com Laravel: php artisan serve
 
-Acessar no navegador: 
-http://127.0.0.1:8000/listar-maquinas
-http://127.0.0.1:8000/visualizar-maquina/2
-
-
-## Criar o projeto com Laravel
-
-Requisitos. 
-PHP 8: https://celke.com.br/artigo/como-instalar-o-wampserver-com-php-8
-Composer: https://celke.com.br/artigo/como-instalar-composer-no-windows
 
 Executar no prompt de comando ou no terminal do editor.
 
